@@ -1,0 +1,28 @@
+.urna1{
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+}
+
+.urna-topo{
+    display: flex;
+    justify-content: center;
+    width: 50rem;
+    height: 8rem;
+    background-color: #d3d3d3;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+#biometria{
+    height: 6rem;
+    width: 5rem;
+    border-radius: 100%;
+    background-color: blue;
+    margin: 1rem;
+}
+
+.urna-tela{
+    width: 60rem;
+    height: 20rem;
+    background-color: beige;
+}
