@@ -8,18 +8,45 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="urna1">
+    <div class="urna">
     <div class="urna-topo">
         <div id="biometria"></div>
     </div>
     </div>
 
+    <div class="urna">
     <div class="urna-tela">
         <div id="tela"></div>
     </div>
+    </div>
 
+    <div class="urna">
     <div class="urna-teclado">
-        <div id=""></div>
+
+    <div>
+        <div class="teclado">1</div>
+        <div class="teclado">4</div>
+        <div class="teclado">7</div>
+        <div id="confirma">confirma</div>
+    </div>
+
+    <div>
+        <div class="teclado">2</div>
+        <div class="teclado">5</div>
+        <div class="teclado">8</div>
+        <div class="teclado">0</div>
+    </div>
+
+    <div>
+        <div class="teclado">3</div>
+        <div class="teclado">6</div>
+        <div class="teclado">9</div>
+        <div id="corrige">corrige</div>
+    </div>
+
+    <aside id="luzes"></aside>
+
+    </div>
     </div>
 
 

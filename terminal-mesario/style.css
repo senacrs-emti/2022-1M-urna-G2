@@ -1,4 +1,4 @@
-.urna1{
+.urna{
     display: flex;
     justify-content: center; 
     text-align: center;
@@ -22,7 +22,53 @@
 }
 
 .urna-tela{
-    width: 60rem;
-    height: 20rem;
+    display: flex;
+    justify-content: center;
+    width: 58rem;
+    height: 14rem;
     background-color: beige;
+}
+#tela{
+    width: 49rem;
+    height: 10rem;
+    background-color: gray;
+    margin: 2rem;
+}
+
+.urna-teclado{
+    display: flex;
+    justify-content: center;
+    width: 60rem;
+    height: 30rem;
+    background-color: #d3d3d3;
+}
+.teclado{
+    width: 5rem;
+    height: 3rem;
+    margin: 2rem;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+}
+#corrige{
+    width: 6rem;
+    height: 3rem;
+    margin: 2rem;
+    background-color: red;
+    color: white;
+}
+#confirma{
+    width: 6rem;
+    height: 3rem;
+    margin: 2rem;
+    background-color: green;
+    color: white;
+}
+#luzes{
+    border-color: black;
+    background-color: gray;
+    width: 10rem;
+    height: 15rem;
+    float: right;
+
 }
