@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color: #b5b5b5;
+    width: 100%;
+    height: 145px;
+}
+
+body{
+  
+    height: 600px;
+}
+footer{
+    background-color: #b5b5b5;
+    width: 100%;
+    height: 100px;
+}
+
+#tabela{
+    
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
