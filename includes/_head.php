@@ -21,18 +21,18 @@
 
             var tabela = new google.visualization.DataTable();
             tabela.addColumn('string','categorias');
-            tabela.addColumn('number','valores');
+            tabela.addColumn('number','votos');
             tabela.addRows([
 
                 ['Bolsonaro',20],
                 ['Ciro',10],
+                ['Ana Voto',1200],
                 ['Lula',15],
-                ['Constituinte Eymael',50],
+                ['Constituinte',50],
                 ['Luiz Felipe d’Avila',90],
-                ['Léo Péricles',12]
             ]);
 
-            var grafico = new google.visualization.PieChart(document.getElementById('graficoPizza'));
+            var grafico = new google.visualization.BarChart(document.getElementById('graficoPizza'));
             grafico.draw(tabela);
     }
 
