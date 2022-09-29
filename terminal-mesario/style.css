@@ -4,12 +4,13 @@
     text-align: center;
 }
 
+
 .urna-topo{
     display: flex;
     justify-content: center;
-    width: 50rem;
+    width: 52rem;
     height: 8rem;
-    background-color: #d3d3d3;
+    background-color: #A9A9A9;
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
 }
@@ -21,34 +22,56 @@
     margin: 1rem;
 }
 
+
+
 .urna-tela{
     display: flex;
     justify-content: center;
     width: 58rem;
-    height: 14rem;
-    background-color: beige;
+    height: 10rem;
+    background-color: #D3D3D3;
 }
 #tela{
-    width: 49rem;
-    height: 10rem;
+    width: 48rem;
+    height: 8rem;
     background-color: gray;
-    margin: 2rem;
+    margin: 1rem;
 }
 
+
+
 .urna-teclado{
+    width: 60rem;
+    height: 27rem;
+    background-color: #A9A9A9;
+}
+
+
+.teclas{
     display: flex;
     justify-content: center;
-    width: 60rem;
-    height: 30rem;
-    background-color: #d3d3d3;
+    width: 40rem;
+    float: left;
+    margin-top: 1rem;
 }
 .teclado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 5rem;
     height: 3rem;
     margin: 2rem;
     background-color: black;
     color: white;
     font-size: 2rem;
+}
+button {
+    border: 0;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+button:hover {
+    opacity: 0.8;
 }
 #corrige{
     width: 6rem;
@@ -64,11 +87,34 @@
     background-color: green;
     color: white;
 }
-#luzes{
-    border-color: black;
-    background-color: gray;
-    width: 10rem;
-    height: 15rem;
-    float: right;
 
+
+#sinais{
+    display: flex;
+    justify-content: center;
+    border: 5px solid;
+    border-color: black;
+    background-color: #A9A9A9;
+    width: 15rem;
+    height: 20rem;
+    margin-top: 3rem;
+    margin-right: 3rem;
+}
+#escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-transform: uppercase;
+}
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.ponto {
+    margin: 1rem;
+    border-radius: 100%;
+    width: 1rem;
+    height: 1rem;
 }
