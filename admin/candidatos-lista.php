@@ -8,8 +8,8 @@ include_once './includes/_header.php';
 
 <body>
 
-
-<table id="tabela"class="table table-striped">
+<main>
+<table id="tab"class="table table-striped">
 <thead>
     <tr>
       <th scope="col">ID</th>
@@ -17,14 +17,14 @@ include_once './includes/_header.php';
       <th scope="col">Partido</th>
       <th scope="col">Número</th>
       <th scope="col">Cargo</th>
-      <th scope="col">Imagem</th>
-      
+      <th scope="col">Imagem</th>   
     </tr>
   </thead>
-  <tbody>
+  <?php?>  <!--Usar foreach!--> 
+   <tbody>
     <tr>
       <th scope="row">1</th>
-      <td>Marcos</td>
+      <td>Marcos POPOPOPP</td>
       <td>YUPI</td>
       <td>3562</td>
       <td>Deputado Federal</td>
@@ -33,8 +33,8 @@ include_once './includes/_header.php';
     </tr>
     <tr>
       <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>PIPI</td>
+      <td input type="text">Jacob</td>
+      <td input type="text">PIPI</td>
       <td>8989</td>
       <td>Deputado Federal</td>
       <td>Jacob.png</td>
@@ -153,7 +153,7 @@ include_once './includes/_header.php';
       <th scope="row">15</th>
       <td>Paulo</td>
       <td>FGAR</td>
-      <td>1563</td>
+      <td>1561</td>
       <td>Deputado Federal</td>
       <td>Paulo.png</td>
 
@@ -203,6 +203,11 @@ include_once './includes/_header.php';
       <td>Jacob.png</td>
 
     </tr>  
+
+</main> 
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script src="script.js"></script>
   </tbody>
 </table>
 
