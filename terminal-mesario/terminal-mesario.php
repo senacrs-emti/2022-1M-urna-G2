@@ -16,36 +16,49 @@
 
     <div class="urna">
     <div class="urna-tela">
-        <div id="tela"></div>
+        <div id="tela">
+            <p class="escrito-tela">Digite aquio CPF do eleitor:</p> 
+
+            <form action="" method="post">
+                <fieldset id="area">
+                        <input type="text" name="entrada_1" id="entrada_1" /></label>
+                </fieldset>
+
+            <br>
+
+        </div>
     </div>
     </div>
 
     <div class="urna">
     <div class="urna-teclado">
 
-    <div class="teclas">
+    <div class="teclas" id="teclado">
+
     <div>
-        <button class="teclado">1</button>
-        <button class="teclado">4</button>
-        <button class="teclado">7</button>
-        <button id="confirma">confirma</button>
+        <input class="teclado" type="button" name="1" value="1"/>
+        <input class="teclado" type="button" name="4" value="4"/>
+        <input class="teclado" type="button" name="7" value="7" />
+        <button id="confirma" onclick='confirma()'>CONFIRMA</button>
+            <audio id="confirma-som" src="./assets/som-confirma.mp3"></audio>
     </div>
 
     <div>
-        <button class="teclado">2</button>
-        <button class="teclado">5</button>
-        <button class="teclado">8</button>
-        <button class="teclado">0</button>
+        <input class="teclado" type="button" name="2" value="2"/>
+        <input class="teclado" type="button" name="5" value="5"/>
+        <input class="teclado" type="button" name="8" value="8"/>
+        <input class="teclado" type="button" name="0" value="0"/>
     </div>
 
     <div>
-        <button class="teclado">3</button>
-        <button class="teclado">6</button>
-        <button class="teclado">9</button>
+        <input class="teclado" type="button" name="3" value="3"/>
+        <input class="teclado" type="button" name="6" value="6"/>
+        <input class="teclado" type="button" name="9" value="9"/>
         <button id="corrige">corrige</button>
     </div>
 
     </div>
+
 
     <div id="sinais">
 
@@ -66,23 +79,16 @@
                 <p>Liberado</p>
                 <span style='background-color: green;' class='ponto'></span>
             </div>
-            <!-- <div class="luz">Bateria interna</div>
-            <div class="luz">Aguarde</div>
-            <div class="luz">Liberado</div> -->
-        </div>
 
-        <!-- <div id="luzes">
-        <div class="vermelho"></div>
-        <div class="vermelho"></div>
-        <div class="amarelo"></div>
-        <div class="verde"></div>
-        </div> -->
 
     </div>
 
     </div>
     </div>
 
+    <script src="script.js"></script>
 
 </body>
 </html>
+
+
