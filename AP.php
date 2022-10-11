@@ -227,7 +227,7 @@ display: block;
         <a href="TO.php">TO</a>
        </ul>
       </div>
-    </nav>
+    </nav> 
 </header>
 <main style="text-align: center;">
 <h1 style="margin-top: 1.5cm;">PRESIDENTE</h1>

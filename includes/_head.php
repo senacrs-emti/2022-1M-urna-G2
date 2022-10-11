@@ -52,6 +52,34 @@ padding: 30px 0px 0px 0px;
 font-size: 0px;
 border: none;
 }
+ul.scroll-menu {
+    position:relative;
+    display:inherit!important;
+    overflow-x:auto;
+    -webkit-overflow-scrolling:touch;
+    -moz-overflow-scrolling:touch;
+    -ms-overflow-scrolling:touch;
+    -o-overflow-scrolling:touch;
+    overflow-scrolling:touch;
+    top:0!important;
+    left:0!important;
+    width:100%;
+    height:auto;
+    max-height:500px;
+    margin:0;
+    border-left:none;
+    border-right:none;
+    -webkit-border-radius:0!important;
+    -moz-border-radius:0!important;
+    -ms-border-radius:0!important;
+    -o-border-radius:0!important;
+    border-radius:0!important;
+    -webkit-box-shadow:none;
+    -moz-box-shadow:none;
+    -ms-box-shadow:none;
+    -o-box-shadow:none;
+    box-shadow:none
+}
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
 position: relative;
