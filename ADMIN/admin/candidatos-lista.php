@@ -17,7 +17,9 @@ include_once './includes/_header.php';
       <th scope="col">Partido</th>
       <th scope="col">Número</th>
       <th scope="col">Cargo</th>
-      <th scope="col">Imagem</th>   
+      <th scope="col">Imagem</th>
+      <th scope="col"></th> 
+      <th scope="col"></th>    
     </tr>
   </thead>
   <?php?>  <!--Usar foreach!--> 
@@ -29,6 +31,9 @@ include_once './includes/_header.php';
       <td>3562</td>
       <td>Deputado Federal</td>
       <td>marcos.png</td>
+      <td><img src="./content/add.png"></td>
+      <td><img src="./content/excluir.png"></td>
+
 
     </tr>
     <tr>
@@ -36,9 +41,10 @@ include_once './includes/_header.php';
       <td input type="text">Jacob</td>
       <td input type="text">PIPI</td>
       <td>8989</td>
-      <td>Deputado Federal</td>
+      <td>Deputado Estadual</td>
       <td>Jacob.png</td>
-
+      <td><img src="./content/add.png"></td>
+      <td><img src="./content/excluir.png"></td>
     </tr>
     <tr>
       <th scope="row">3</th>
@@ -47,7 +53,8 @@ include_once './includes/_header.php';
       <td>1563</td>
       <td>Deputado Federal</td>
       <td>Paulo.png</td>
-
+      <td><img src="./content/add.png"></td>
+      <td><img src="./content/excluir.png"></td>
     </tr>
     <tr>
       <th scope="row">4</th>
@@ -56,7 +63,8 @@ include_once './includes/_header.php';
       <td>3562</td>
       <td>Deputado Federal</td>
       <td>marcos.png</td>
-
+      <td><img src="./content/add.png"></td>
+      <td><img src="./content/excluir.png"></td>
     </tr>
     <tr>
       <th scope="row">5</th>
@@ -65,7 +73,8 @@ include_once './includes/_header.php';
       <td>8989</td>
       <td>Deputado Federal</td>
       <td>Jacob.png</td>
-
+      <td><img src="./content/add.png"></td>
+      <td><img src="./content/excluir.png"></td>
     </tr>
     <tr>
       <th scope="row">6</th>
@@ -74,7 +83,8 @@ include_once './includes/_header.php';
       <td>1563</td>
       <td>Deputado Federal</td>
       <td>Paulo.png</td>
-
+      <td><img src="./content/add.png"></td>
+      <td><img src="./content/excluir.png"></td>
     </tr>
     <tr>
       <th scope="row">7</th>
@@ -83,7 +93,8 @@ include_once './includes/_header.php';
       <td>3562</td>
       <td>Deputado Federal</td>
       <td>marcos.png</td>
-
+      <td><img src="./content/add.png"></td>
+      <td><img src="./content/excluir.png"></td>
     </tr>
     <tr>
       <th scope="row">8</th>
@@ -92,7 +103,8 @@ include_once './includes/_header.php';
       <td>8989</td>
       <td>Deputado Federal</td>
       <td>Jacob.png</td>
-
+      <td><img src="./content/add.png"></td>
+      <td><img src="./content/excluir.png"></td>
     </tr>
     <tr>
       <th scope="row">9</th>
@@ -101,7 +113,8 @@ include_once './includes/_header.php';
       <td>1563</td>
       <td>Deputado Federal</td>
       <td>Paulo.png</td>
-
+      <td><img src="./content/add.png"></td>
+      <td><img src="./content/excluir.png"></td>
     </tr>
     <tr>
       <th scope="row">10</th>
@@ -110,7 +123,8 @@ include_once './includes/_header.php';
       <td>3562</td>
       <td>Deputado Federal</td>
       <td>marcos.png</td>
-
+      <td><img src="./content/add.png"></td>
+      <td><img src="./content/excluir.png"></td>
     </tr>
     <tr>
       <th scope="row">11</th>
@@ -119,7 +133,8 @@ include_once './includes/_header.php';
       <td>8989</td>
       <td>Deputado Federal</td>
       <td>Jacob.png</td>
-
+      <td><img src="./content/add.png"></td>
+      <td><img src="./content/excluir.png"></td>
     </tr>
     <tr>
       <th scope="row">12</th>
@@ -128,7 +143,8 @@ include_once './includes/_header.php';
       <td>1563</td>
       <td>Deputado Federal</td>
       <td>Paulo.png</td>
-
+      <td><img src="./content/add.png"></td>
+      <td><img src="./content/excluir.png"></td>
     </tr>
     </tr>
     <tr>
@@ -138,7 +154,8 @@ include_once './includes/_header.php';
       <td>3562</td>
       <td>Deputado Federal</td>
       <td>marcos.png</td>
-
+      <td><img src="./content/add.png"></td>
+      <td><img src="./content/excluir.png"></td>
     </tr>
     <tr>
       <th scope="row">14</th>
@@ -147,7 +164,8 @@ include_once './includes/_header.php';
       <td>8989</td>
       <td>Deputado Federal</td>
       <td>Jacob.png</td>
-
+      <td><img src="./content/add.png"></td>
+      <td><img src="./content/excluir.png"></td>
     </tr>
     <tr>
       <th scope="row">15</th>
@@ -156,7 +174,8 @@ include_once './includes/_header.php';
       <td>1561</td>
       <td>Deputado Federal</td>
       <td>Paulo.png</td>
-
+      <td><img src="./content/add.png"></td>
+      <td><img src="./content/excluir.png"></td>
     </tr>
     <tr>
       <th scope="row">16</th>
@@ -165,7 +184,8 @@ include_once './includes/_header.php';
       <td>3562</td>
       <td>Deputado Federal</td>
       <td>marcos.png</td>
-
+      <td><img src="./content/add.png"></td>
+      <td><img src="./content/excluir.png"></td>
     </tr>
     <tr>
       <th scope="row">17</th>
@@ -174,7 +194,8 @@ include_once './includes/_header.php';
       <td>8989</td>
       <td>Deputado Federal</td>
       <td>Jacob.png</td>
-
+      <td><img src="./content/add.png"></td>
+      <td><img src="./content/excluir.png"></td>
     </tr>
     <tr>
       <th scope="row">18</th>
@@ -183,7 +204,8 @@ include_once './includes/_header.php';
       <td>1563</td>
       <td>Deputado Federal</td>
       <td>Paulo.png</td>
-
+      <td><img src="./content/add.png"></td>
+      <td><img src="./content/excluir.png"></td>
     </tr>
     <tr>
       <th scope="row">19</th>
@@ -192,6 +214,8 @@ include_once './includes/_header.php';
       <td>3562</td>
       <td>Deputado Federal</td>
       <td>marcos.png</td>
+      <td><img src="./content/add.png"></td>
+      <td><img src="./content/excluir.png"></td>
 
     </tr>
     <tr>
@@ -201,8 +225,11 @@ include_once './includes/_header.php';
       <td>8989</td>
       <td>Deputado Federal</td>
       <td>Jacob.png</td>
+      <td><img src="./content/add.png"></td>
+      <td><img src="./content/excluir.png"></td>
 
     </tr>  
+    
 
 </main> 
 
