@@ -17,12 +17,12 @@
     <div class="urna">
     <div class="urna-tela">
         <div id="tela">
-            <p class="escrito-tela">Digite aquio CPF do eleitor:</p> 
+            <h3 class="escrito-tela">Digite aquio CPF do eleitor:</h3> 
 
             <form action="" method="post">
-                <fieldset id="area">
+                <div id="area">
                         <input type="text" name="entrada_1" id="entrada_1" /></label>
-                </fieldset>
+                </div>
 
             <br>
 
@@ -39,8 +39,7 @@
         <input class="teclado" type="button" name="1" value="1"/>
         <input class="teclado" type="button" name="4" value="4"/>
         <input class="teclado" type="button" name="7" value="7" />
-        <button id="confirma" onclick='confirma()'>CONFIRMA</button>
-            <audio id="confirma-som" src="./assets/som-confirma.mp3"></audio>
+        <button id="confirma">CONFIRMA</button>
     </div>
 
     <div>
@@ -54,7 +53,7 @@
         <input class="teclado" type="button" name="3" value="3"/>
         <input class="teclado" type="button" name="6" value="6"/>
         <input class="teclado" type="button" name="9" value="9"/>
-        <button id="corrige">corrige</button>
+        <button id="corrige">CORRIGE</button>
     </div>
 
     </div>

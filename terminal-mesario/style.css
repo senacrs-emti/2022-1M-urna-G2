@@ -39,8 +39,9 @@
 }
 .escrito-tela{
     text-align: center;
+    padding: 5px;
     color: aliceblue;
-    font-size: 10px;
+    font-size: 20px;
 }
 
 

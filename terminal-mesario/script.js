@@ -1,10 +1,3 @@
-const button = document.querySelector("#confirma");
-button.addEventListener("click", function () {
-  const audio = document.querySelector("#confirma-som");
-  audio.play();
-});
-
-
 function id( el ){
     return document.getElementById( el );
 }
