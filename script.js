@@ -1,25 +1,65 @@
-let seuVotoPara = document.querySelector('.d-1-1 span');
-let cargo = document.querySelector('.d-1-2 span');
-let descricao = document.querySelector('.d-1-4');
-let aviso = document.querySelector('.d-2');
-let lateral = document.querySelector('.d-1-right');
-let numeros = document.querySelector('.d-1-3');
 
-function clicou(n) {
-    alert("Clicou em" +n);
-}
 
-function branco() {
-    alert("Clicou em BRANCO!");
 
-}
-
-function corrige() {
-    alert("Clicou em CORRIGE!");
-
-}
-
-function confirma() {
-    alert("Clicou em CONFIRMA!");
-
-}
+function escolherNumero(number) {
+    const pisca = document.querySelector(".pisca");
+    const primeiroInput = document.querySelector("#primeiroInput").innerHTML;
+    const segundoInput = document.querySelector("#segundoInput");
+    const segundoInputText = document.querySelector("#segundoInput").innerHTML;
+  
+    if (primeiroInput === "") {
+      document.getElementById("primeiroInput").innerHTML = number;
+      pisca.classList.remove("pisca");
+      segundoInput.classList.add("pisca");
+    } else if (segundoInputText === "") {
+      document.getElementById("segundoInput").innerHTML = number;
+      pisca.classList.remove("pisca");
+  
+      const juncaoDoisNumeros = `${primeiroInput}${number}`;
+      escolhaENula(juncaoDoisNumeros);
+    }
+  }
+  
+  function branco() {
+    document.querySelector(".textoBranco").innerHTML = "VOTO EM BRANCO";
+    const vereadorBranco = document.querySelector(".vereador");
+    const divDireitaBranco = document.querySelector(".d-1-right");
+    const d13Branco = document.querySelector(".d-1-3");
+    const d14Branco = document.querySelector(".d-1-4");
+  
+    d13Branco.remove("d13Branco");
+    vereadorBranco.remove("vereadorBranco");
+    d14Branco.remove("d14Branco");
+    divDireitaBranco.remove("divDireitaBranco");
+  
+  }
+  
+  function corrige() {
+    document.location.reload();
+  }
+  
+  function escolhaENula(number) {
+    const divDireita = document.querySelector(".d-1-right");
+    const name = document.querySelector('.d-1-4');
+   
+    if (number == 72) {
+      divDireita.remove("divDireita");
+      document.querySelector(".d-1-4").innerHTML = "VOTO NULO";
+      name.style.display == 'none' ? name.style.display = 'flex' : name.style.display = 'none';
+      return;
+    }
+  
+    const right = document.querySelector('.d-1-right');
+    right.style.display == 'none' ? right.style.display = 'flex' : right.style.display = 'none';
+    name.style.display == 'none' ? name.style.display = 'flex' : name.style.display = 'none';
+  
+  }
+  
+  
+  const button = document.querySelector("#botao-confirma-som");
+  button.addEventListener("click", function () {
+    const audio = document.querySelector("#confirma-som");
+    audio.play();
+  });
+  
+  
