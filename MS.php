@@ -230,7 +230,18 @@ display: block;
     </nav>
 </header>
 <main style="text-align: center;">
-<h1 style="margin-top: 1.5cm;">PRESIDENTE</h1>
+<div class="container" style="margin-top: 1.5cm;">
+  <div class="row">
+    <div class="col-sm">
+    </div>
+    <div class="col-sm">
+    <h1>PRESIDENTE</h1>
+    </div>
+    <div class="col-sm">
+    <h2><img src="./content/pin1.png" alt="Girl in a jacket" width="30" height="30"> Mato Grosso do Sul</h2>
+    </div>
+  </div>
+</div>
 
 <div id="graficoPizza" style="width: 95%; margin-left: 15px;"></div>
 
