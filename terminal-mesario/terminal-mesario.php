@@ -17,7 +17,7 @@
     <div class="urna">
     <div class="urna-tela">
         <div id="tela">
-            <h3 class="escrito-tela">Digite aquio CPF do eleitor:</h3> 
+            <h3 class="escrito-tela">Digite aqui o número de incrição do eleitor:</h3> 
 
             <form action="" method="post">
                 <div id="area">
